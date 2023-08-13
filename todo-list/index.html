@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TODO List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="todo-list">
+    <h1>TODO LIST</h1>
+    <div class="task-input">
+      <label for="task-name">Enter Task Name:</label>
+      <input type="text" id="task-name">
+      <label for="task-date">Enter Task Date:</label>
+      <input type="date" id="task-date">
+      <button onclick="addTask()">Add Task</button>
+    </div>
+    <div class="completed-tasks">
+      <h2>Completed Tasks</h2>
+      <ul id="completed-tasks-list"></ul>
+    </div>
+    <div class="incomplete-tasks">
+      <h2>Incomplete Tasks</h2>
+      <ul id="incomplete-tasks-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
